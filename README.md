@@ -142,22 +142,6 @@ Colab's free CPU runtime (2 cores @ 2.20 GHz) was the slowest without a GPU/TPU 
 
 ---
 
-## Getting started
-
-### Requirements
-
-```bash
-pip install pandas numpy scikit-learn torch transformers sentencepiece fasttext
-```
-
-Download the FastText Simple English Wikipedia vectors (`wiki.simple.bin`) and place them in the project directory. The XLNet model (`xlnet-base-cased`) downloads automatically through Hugging Face Transformers.
-
-### Run
-
-1. Place `Constraint_Train` and `Constraint_Test` in the project directory.
-2. Run the notebook/script to clean the text, extract FastText and XLNet features, train the four classifiers and print the classification reports and timings.
-
----
 
 ## Tech stack
 
